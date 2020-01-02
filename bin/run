@@ -1,1 +1,2 @@
+export RESTFULGIT_CONFIG=/Users/andy/Devel/restfulgit/config.py
 python -m restfulgit.app
