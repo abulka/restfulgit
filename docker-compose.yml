@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  weblocalgit:
+    # curl localhost:5000
+    image: restfulgit:latest
+    command: python -m restfulgit.app
+    ports:
+        - "5000:5000"
+    environment:
+        - RESTFULGIT_CONFIG=/code/config.py        
+    volumes:
+        - /Users/Andy/Devel:/Users/Andy/Devel/

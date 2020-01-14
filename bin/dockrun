@@ -1,0 +1,11 @@
+docker run --detach \
+  --rm \
+  --name lgit \
+  --publish 5000:5000 \
+  --volume /Users/Andy/Devel:/Users/Andy/Devel \
+  restfulgit:latest
+
+docker ps
+
+echo to stop run
+echo docker stop lgit
