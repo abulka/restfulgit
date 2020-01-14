@@ -7,3 +7,5 @@ cover
 MANIFEST
 ENV/
 config.py
+.mypy_cache/
+.env
